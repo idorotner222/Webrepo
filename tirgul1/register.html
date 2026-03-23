@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen m-0 font-sans">
+    <div class="bg-white p-8 rounded-lg shadow-xl w-80">
+        <h1 class="text-3xl font-bold mb-6 text-gray-800 text-center">Register</h1>
+        <form>
+            <label class="block mb-1 text-gray-700">Full Name</label>
+            <input type="text" placeholder="Enter your name" required 
+                   class="w-full p-2 mb-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400">
+
+            <label class="block mb-1 text-gray-700">Email Address</label>
+            <input type="email" placeholder="Email@example.com" required 
+                   class="w-full p-2 mb-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400">
+
+            <label class="block mb-1 text-gray-700">Password</label>
+            <input type="password" placeholder="••••••••" required 
+                   class="w-full p-2 mb-6 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-400">
+
+            <button type="submit" class="w-full p-3 bg-blue-500 text-white rounded font-semibold hover:bg-blue-600">
+                Create Account
+            </button>
+
+            <a href="login.html" class="block text-center w-full p-2 mt-4 bg-gray-200 text-gray-800 rounded hover:bg-gray-300">
+                Back to Login
+            </a>
+        </form>
+    </div>
+</body>
+</html>
